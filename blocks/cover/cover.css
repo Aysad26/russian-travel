@@ -1,6 +1,7 @@
 .cover {
     background-image: url("./../../images/cover-trains.jpg");
     background-size: cover;
+    background-position: center;
     min-height: 740px;
     display: flex;
     flex-direction: column;
@@ -16,7 +17,7 @@
 
 .cover:before {
     content: '';
-    background: black;
+    background: #2A2C2F;
     opacity: 0.3;
     position: absolute;
     top: 0;
