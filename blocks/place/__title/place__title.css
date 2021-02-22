@@ -5,7 +5,7 @@
   line-height:106%;
   color: #FFFFFF; 
   margin:0; 
-  max-width: 460px;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1023px) {
@@ -20,8 +20,9 @@
     font-size: 32px;
     line-height:109%;
     width: calc(100% - 2*16px);
-    margin-left: auto;
+    text-align: left;
     margin-right: auto;
+    margin-left: auto;
   }
 }
 
