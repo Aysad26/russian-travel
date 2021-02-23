@@ -5,10 +5,3 @@
 .header__link-container:last-child {
   margin-right: 0px;
 }
-
-.header__link-container:first-child {
-  text-decoration: underline;
-}
-
-
-

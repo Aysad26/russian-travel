@@ -3,10 +3,10 @@
     background-size: cover;
     background-position: center;
     min-height: 740px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+    align-items: stretch;
     padding: 0 auto;
     box-sizing: border-box;
     position: relative;
